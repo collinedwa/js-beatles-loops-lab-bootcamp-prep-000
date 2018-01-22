@@ -9,7 +9,7 @@ return array
 function johnLennonFacts(facts){
   let n = 0
   while(n<4){
-    facts[n] + "!!!"
+    facts[n] = `${facts[n]}!!!`;
     n++
   }
   return facts
